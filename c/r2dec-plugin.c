@@ -244,12 +244,12 @@ RCorePlugin core_plugin_r2dec = {
 	.meta = {
 		.name = "r2dec",
 		.desc = "Pseudo-code decompiler for radare2",
-		.license = "BSD-3",
+		.license = "BSD-3-Clause",
 	},
 #else
 	.name = "r2dec",
 	.desc = "Pseudo-code decompiler for radare2",
-	.license = "BSD-3",
+	.license = "BSD-3-Clause",
 #endif
 	.call = r_cmd_pdd,
 	.init = r_cmd_pdd_init
